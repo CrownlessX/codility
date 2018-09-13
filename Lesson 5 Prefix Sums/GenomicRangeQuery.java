@@ -4,7 +4,7 @@ A DNA sequence can be represented as a string consisting of the letters A, C, G 
 The DNA sequence is given as a non-empty string S = S[0]S[1]...S[N-1] consisting of N characters. There are M queries, which are given in non-empty arrays P and Q, each consisting of M integers. The K-th query (0 ≤ K < M) requires you to find the minimal impact factor of nucleotides contained in the DNA sequence between positions P[K] and Q[K] (inclusive).
 
 For more info: https://app.codility.com/programmers/lessons/5-prefix_sums/genomic_range_query/
-**/
+*/
 
 //Detected time complexity: O(N + M)
 

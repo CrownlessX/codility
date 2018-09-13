@@ -1,4 +1,4 @@
-/*
+/**
 A string S consisting of N characters is called properly nested if:
 
         S is empty;
@@ -10,7 +10,7 @@ For more info:
 https://app.codility.com/programmers/lessons/7-stacks_and_queues/nesting/
 */
 
-/** Non-Stack version **/
+/** Non-Stack version */
 //Detected time complexity: O(N)
 class Solution {
     public int solution(String S) {
@@ -38,7 +38,7 @@ class Solution {
     }
 }
 
-/** Stack version **/
+/** Stack version */
 //Detected time complexity: O(N)
 import java.util.Stack;
 

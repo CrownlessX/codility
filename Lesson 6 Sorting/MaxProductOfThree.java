@@ -2,7 +2,7 @@
 A non-empty array A consisting of N integers is given. The product of triplet (P, Q, R) equates to A[P] * A[Q] * A[R] (0 ≤ P < Q < R < N).
 
 For more information: https://app.codility.com/programmers/lessons/6-sorting/max_product_of_three/
-**/
+*/
 
 //Detected time complexity: O(N * log(N))
 import java.util.Arrays;

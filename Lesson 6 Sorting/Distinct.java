@@ -6,8 +6,7 @@ Write a function
 that, given an array A consisting of N integers, returns the number of distinct values in array A.
 
 For more information: https://app.codility.com/programmers/lessons/6-sorting/distinct/
-**/
-
+*/
 
 //Detected time complexity: O(N*log(N)) or O(N)
 import java.util.*;

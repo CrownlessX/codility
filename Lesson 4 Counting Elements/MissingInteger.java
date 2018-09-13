@@ -8,7 +8,7 @@ Write a function:
 that, given an array A of N integers, returns the smallest positive integer (greater than 0) that does not occur in A.
 
 For more info: https://app.codility.com/programmers/lessons/4-counting_elements/missing_integer/
-**/
+*/
 
 import java.util.*;
 

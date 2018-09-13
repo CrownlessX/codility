@@ -6,7 +6,7 @@ A string S consisting of N characters is considered to be properly nested if any
         S has the form "VW" where V and W are properly nested strings.
 
 For more info: https://app.codility.com/programmers/lessons/7-stacks_and_queues/brackets/
-**/
+*/
 
 //Detected time complexity: O(N)
 import java.util.Stack;

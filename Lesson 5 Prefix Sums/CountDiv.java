@@ -16,7 +16,7 @@ Write an efficient algorithm for the following assumptions:
         A ≤ B.
         
 For more info: https://app.codility.com/programmers/lessons/5-prefix_sums/count_div/
-**/
+*/
 
 //Detected time complexity: O(1)
 class Solution {

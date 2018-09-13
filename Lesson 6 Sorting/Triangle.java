@@ -6,7 +6,7 @@ An array A consisting of N integers is given. A triplet (P, Q, R) is triangular 
         A[R] + A[P] > A[Q].
 
 For more info: https://app.codility.com/programmers/lessons/6-sorting/triangle/
-**/
+*/
 
 //Detected time complexity: O(N*log(N))
 import java.util.Arrays;

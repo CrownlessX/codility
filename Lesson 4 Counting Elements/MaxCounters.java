@@ -10,13 +10,12 @@ A non-empty array A of M integers is given. This array represents consecutive op
         if A[K] = N + 1 then operation K is max counter.
         
 For more info: https://app.codility.com/programmers/lessons/4-counting_elements/max_counters/
-**/
+*/
 
 import java.util.*;
 
 class Solution {
     public int[] solution(int N, int[] A) {
-        // write your code in Java SE 8
         int maxVal = 0;
         int maxCounter = 0;
         int[] results = new int[N];

@@ -8,12 +8,12 @@ Array A contains only 0s and/or 1s:
 
 The goal is to count passing cars. We say that a pair of cars (P, Q), where 0 ≤ P < Q < N, is passing when P is traveling to the east and Q is traveling to the west.
 For more info: https://app.codility.com/programmers/lessons/5-prefix_sums/passing_cars/
-**/
+*/
 import java.util.*;
 
 class Solution {
     public int solution(int[] A) {
-        // write your code in Java SE 8
+
         int passCars = 0;
         int eastCars = 0, westCars = 0;
             

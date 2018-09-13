@@ -16,7 +16,7 @@ If two fish move in opposite directions and there are no other (living) fish bet
 We assume that all the fish are flowing at the same speed. That is, fish moving in the same direction never meet. The goal is to calculate the number of fish that will stay alive.
 
 For more info: https://app.codility.com/programmers/lessons/7-stacks_and_queues/fish/
-**/
+*/
 
 //Detected time complexity: O(N)
 import java.util.Stack;

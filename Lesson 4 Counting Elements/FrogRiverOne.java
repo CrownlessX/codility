@@ -6,7 +6,8 @@ You are given an array A consisting of N integers representing the falling leave
 The goal is to find the earliest time when the frog can jump to the other side of the river. The frog can cross only when leaves appear at every position across the river from 1 to X (that is, we want to find the earliest moment when all the positions from 1 to X are covered by leaves). You may assume that the speed of the current in the river is negligibly small, i.e. the leaves do not change their positions once they fall in the river.
 
 For more info: https://app.codility.com/programmers/lessons/4-counting_elements/frog_river_one/
-**/
+*/
+
 import java.util.*;
 
 class Solution {
