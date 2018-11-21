@@ -1,4 +1,4 @@
-<h1>This is my solution for Codility tasks</h1>
+<h1>This is my solutions for Codility tasks</h1>
 
 <h2>All solution written on Java and got <b>100%</b> points</h2>
 
