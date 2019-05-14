@@ -14,30 +14,21 @@ import java.util.*;
 
 class Solution {
     public int solution(int[] A) {
+        // write your code in Java SE 8
         Arrays.sort(A);
-        
-        //If we first int more then 1, then we missing 1.
-        //If the last int in sorted array less then 1, then we got negative array
-        if (A[0] > 1 || A[A.length - 1] < 1)
-            return 1;
-        
-        int prevVal = 0;
-        for(int i = 0; i < A.length; i++) {
-            //Skipping all nagetive elements
-            if(A[i] < 1) {
-                continue;                
+        int count = 1;
+        for (int i = 0; i < A.length; i++) {
+            if (A[i] > 0) {
+                if (A[i] == count - 1)
+                    continue;
+                if (A[i] != count)
+                    return count;
+                count++;
             }
-
-            //Check if we miss element between previous value and current
-            if(A[i] > prevVal + 1) {
-                return prevVal + 1;
-            }
-            prevVal = A[i];
-        }    
-                    
-        //We reached end of array and didn't find the missing int. 
-        //Then our int -> next after the last in our array
-        return A[A.length - 1] + 1; 
+        }
+        
+        if (count > 1)
+            return count;
+        return 1;
     }
 }
-
